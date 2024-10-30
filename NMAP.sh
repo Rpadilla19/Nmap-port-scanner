@@ -19,4 +19,4 @@ else
 fi
 
 
-sendemail -f infosecScanner@laccd.edu -t infosec@laccd.edu -cc baiksj@laccd.edu  -u "ESCnmap ${d}" -m "Scans are ready for pickup in /home/nmap/scanneroutputfi/ESC_Networkscans_${d}.zip" -s smtpout.laccd.edu:25
+sendemail -f <email address> -t <email address>  -u "nmap ${d}" -m "Scans are ready for pickup in /path/to/file/Networkscans_${d}.zip" -s <smtp server>
